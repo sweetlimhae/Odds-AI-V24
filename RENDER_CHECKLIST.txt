@@ -1,0 +1,13 @@
+Render 체크리스트
+
+1. GitHub 루트에 app.py가 있어야 함.
+2. Build Command:
+   pip install -r requirements.txt
+3. Start Command:
+   gunicorn app:app
+4. 환경변수:
+   ODDS_API_KEY=본인키
+   ENABLE_BMBETS=0
+   MIN_START_MINUTES=10
+   MAX_START_MINUTES=720
+5. 배포 후 /health 확인.
